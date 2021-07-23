@@ -5,7 +5,7 @@ local Runservice = game:GetService("RunService")
 
 
 
-local l = value.Value
+local l = intvalue.Value
 intvalue.Changed:Connect(function(newVal)
 	local Difference = newVal - l 
 	l = newVal
